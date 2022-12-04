@@ -1,0 +1,26 @@
+{
+    "extends": [
+        "airbnb",
+        "plugin:react-hooks/recommended"
+    ],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "no-use-before-define": "off",
+        "react/jsx-filename-extension": "off",
+        "react/prop-types": "off",
+        "comma-dangle": "off",
+        "padded-blocks": "off",
+        "arrow-body-style": "off",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/jsx-one-expression-per-line": "off",
+        "object-curly-newline": "off"
+    }
+}
